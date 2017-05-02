@@ -1,0 +1,32 @@
+/** Global Styles **/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: green;
+    height: 40px;
+    position: absolute;
+    padding: 10px 5px;
+    display: block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.float-left {
+    float: left;
+}
+
+/** The Nav **/
+#nav-body {
+    margin: 0px;
+}
+.nav-links {
+    list-style-type: none;
+    display: inline;
+    margin: 5px 5px 20px 20px;
+}
+.link {
+    text-decoration: none;
+    line-height: 40px;
+}
