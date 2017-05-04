@@ -16,6 +16,10 @@ header {
     left: 0px;
     right: 0px;
 }
+footer {
+    background-color: #112953;
+    padding: 5px;
+}
 .float-left {
     float: left;
 }
@@ -82,4 +86,20 @@ header {
 }
 #list-container {
     margin-top: 10px;
+}
+
+/** The Footer **/
+.social-media {
+    text-decoration: none;
+    padding: 5px;
+}
+.fa-facebook-square {
+    color: #3b5998;
+    background-color: white;
+    border-radius: 100px;
+}
+.fa-github {
+    color: #000000;
+    background-color: white;
+    border-radius: 100px;
 }
