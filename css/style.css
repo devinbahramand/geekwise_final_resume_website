@@ -36,6 +36,9 @@ footer {
 .margin-top-10 {
     margin-top: 10px;
 }
+.section-body {
+    margin-top: 60px;
+}
 
 /** The Nav **/
 #nav-body {
@@ -90,9 +93,6 @@ footer {
 }
 
 /** Education Content **/
-#education-body {
-    margin-top: 60px;
-}
 #minarets-logo-container {
     padding: 25px;
     margin: 25px;
@@ -107,6 +107,18 @@ footer {
     margin-top: 300px;
     margin-right: 25px;
 }
+
+/** Experience Content **/
+#msb-container {
+    background-color: #60759C;
+    padding: 25px;
+    margin-top: 85px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    width: 63%;
+}
+
+/** Projects Content **/
 
 /** The Footer **/
 .social-media {
