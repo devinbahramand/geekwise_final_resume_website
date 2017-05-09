@@ -19,6 +19,7 @@ header {
 footer {
     background-color: #112953;
     padding: 5px;
+    clear: both;
 }
 .float-left {
     float: left;
@@ -63,13 +64,13 @@ footer {
     background-size: cover;
     background-position: cover;
 }
-#container-1 {
+#home-container-1 {
     background-color: #60759C;
     padding: 25px;
     margin: 25px;
     width: 63%;
 }
-#container-1-text {
+#home-container-1-text {
     text-align: center;
     margin-top: 10px;
 }
@@ -84,8 +85,27 @@ footer {
 #home-picture {
     width: 100%;
 }
-#list-container {
+#home-list-container {
     margin-top: 10px;
+}
+
+/** Education Content **/
+#education-body {
+    margin-top: 60px;
+}
+#minarets-logo-container {
+    padding: 25px;
+    margin: 25px;
+    width: 60%;
+}
+#minarets-logo {
+    width:100%;
+}
+#minarets-text-container {
+    background-color: #60759C;
+    padding: 25px;
+    margin-top: 300px;
+    margin-right: 25px;
 }
 
 /** The Footer **/
