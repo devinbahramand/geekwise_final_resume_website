@@ -140,6 +140,22 @@ footer {
 }
 
 /** Projects Content **/
+#videos-btn-container {
+    margin: 100px;
+}
+#videos-btn {
+    background-color: yellow;
+    text-decoration: none;
+    padding: 30px 60px 30px 60px;
+}
+#clickergame-container {
+   margin: 100px; 
+}
+#clickergame {
+    background-color: yellow;
+    text-decoration: none;
+    padding: 30px 60px 30px 60px;
+}
 
 /** The Footer **/
 .social-media {

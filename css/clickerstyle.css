@@ -1,0 +1,78 @@
+body {
+	background-color: lightblue;
+}
+button{
+	background-color: #CD2626;
+	font-family: Arial;
+	font-size: 15px;
+}
+#clicker{
+	position:fixed;
+	width: 300;
+	right: 650;
+	top: 300;
+}
+#clickerCount{
+	position:fixed;
+	right: 660;
+	top: 60;
+	font-size: 75px;
+	font-family: Arial;
+}
+#pointsPerSec{
+	position:fixed;
+	right: 710;
+	top: 180;
+	font-size: 30px;
+	font-family: Arial;
+}
+#statsTitle{
+	position:fixed;
+	font-size: 60px;
+	font-family: Arial;
+	top: 20;
+	right: 1170;
+}
+#upgrades{
+	position:fixed;
+	font-size: 60px;
+	font-family: Arial;
+	top: 20;
+	right: 270;
+}
+#upgradeOne{
+	position:fixed;
+	height: 100px;
+	width: 200px;
+	top: 160;
+	right: 300;
+}
+#upgradeOneDescription{
+	position:fixed;
+	top: 160;
+	right: 40;
+}
+#upgradeTwo{
+	position:fixed;
+	height: 100px;
+	width: 200px;
+	top: 265;
+	right: 300;
+}
+#upgradeTwoDescription{
+	position:fixed;
+	top: 265;
+	right: 40;
+}
+#secretOne{
+	position:fixed;
+	height: 100px;
+	width: 200px;
+	top: 370;
+	right: 300;
+}
+#secretOneDescription{
+	position:fixed;
+	top: 370;
+	right: 95;
+}
