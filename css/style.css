@@ -5,6 +5,8 @@
 }
 body {
     background-color: #304876;
+    height: 100%;
+    width: 100%;
 }
 header {
     background-color: #112953;
@@ -16,10 +18,19 @@ header {
     left: 0px;
     right: 0px;
 }
+section {
+    overflow: hidden;
+}
 footer {
     background-color: #112953;
     padding: 5px;
-    clear: both;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
+#wrapper {
+    min-height: 100%;
+    position: relative;
 }
 .float-left {
     float: left;
@@ -38,6 +49,9 @@ footer {
 }
 .section-body {
     margin-top: 60px;
+}
+.bottom-0 {
+    bottom: 0;
 }
 
 /** The Nav **/
@@ -113,9 +127,16 @@ footer {
     background-color: #60759C;
     padding: 25px;
     margin-top: 85px;
-    margin-left: 25px;
+    margin-right: 85px;
     margin-bottom: 25px;
-    width: 63%;
+    width: 50%;
+}
+#mechanic-img-container {
+    padding: 10px;
+    margin: 25px;
+}
+#mechanic-img {
+    width: 450px;
 }
 
 /** Projects Content **/
